@@ -1,0 +1,40 @@
+# Site settings
+title: GitHub Jekyll Theme
+description: A simple Jekyll theme inspired by GitHub wikis.
+email: il@livius.net
+
+destination: _site
+exclude:
+  - README.md
+  - site/sidebar.md
+
+# Used in sitemap.xml
+url: "http://ilg-ul.github.io" # the base hostname & protocol for your site
+
+baseurl: "/github-jekyll-theme/" # the subpath of your site, e.g. /blog/
+
+timezone: Europe/Bucharest
+encoding: utf-8
+
+# Default permalink used for posts
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: redcarpet
+
+redcarpet:
+  extensions: []
+
+gems:
+  - jekyll-last-modified-at
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom defs
+github-username:  ilg-ul
+github-project-name: ilg-ul/github-jekyll-theme
+
+google-analytics-id: UA-000000-01
