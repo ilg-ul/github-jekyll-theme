@@ -1,5 +1,6 @@
 # Site settings
 title: GitHub Jekyll Theme
+name: GitHub Jekyll Theme
 description: A simple Jekyll theme inspired by GitHub wikis.
 email: il@livius.net
 
@@ -11,7 +12,9 @@ exclude:
 # Used in sitemap.xml
 url: "http://ilg-ul.github.io" # the base hostname & protocol for your site
 
-baseurl: "/github-jekyll-theme/" # the subpath of your site, e.g. /blog/
+# The subpath of your site, e.g. /blog (note the leading slash and the
+# absence of a trailing slash).
+baseurl: "/github-jekyll-theme"
 
 timezone: Europe/Bucharest
 encoding: utf-8
@@ -30,8 +33,8 @@ gems:
   - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
 
 # Custom defs
 github-username:  ilg-ul
