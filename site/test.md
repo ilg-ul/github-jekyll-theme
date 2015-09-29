@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /test/
+title: Title
 author: Liviu Ionescu
 
 last_modified_at: 2015-09-28 23:13:00
@@ -14,7 +15,7 @@ Text **text**.
 
 Text _text_.
 
-###4 Header 4
+#### Header 4
 
 Text text `code`.
 
