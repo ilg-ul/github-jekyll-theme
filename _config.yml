@@ -1,13 +1,12 @@
 # Site settings
-title: GitHub Jekyll Theme
-name: GitHub Jekyll Theme
-description: A simple Jekyll theme inspired by GitHub wikis.
+title: GitHub Wiki-like Jekyll Theme
+name: GitHub Wiki-like Jekyll Theme
+description: A simple Jekyll theme inspired by GitHub Wikis.
 email: il@livius.net
 
 destination: _site
 exclude:
   - README.md
-  - site/sidebar.md
 
 # Used in sitemap.xml
 url: "http://ilg-ul.github.io" # the base hostname & protocol for your site
@@ -41,3 +40,6 @@ github-username:  ilg-ul
 github-project-name: ilg-ul/github-jekyll-theme
 
 google-analytics-id: UA-000000-01
+
+custom-footer-content: site-custom-footer-content.markdown
+copyright-message: "© 2015 Liviu Ionescu"

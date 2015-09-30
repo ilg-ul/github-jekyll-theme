@@ -1,3 +1,11 @@
-<div class="footer">
-  This project is maintained by <a href="https://github.com/{{ site.github-username }}">ilg-ul</a>. Hosted on GitHub Pages.
+<div class="site-footer">
+  <div class="site-footer-links left">
+    {% capture fl %}{% include footer-left-content.markdown %}{% endcapture %}{{ fl | markdownify }}
+  </div>
+  <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+  </a>
+  <div class="site-footer-links right">
+    {% capture fr %}{% include footer-right-content.markdown %}{% endcapture %}{{ fr | markdownify }}
+  </div>
 </div>

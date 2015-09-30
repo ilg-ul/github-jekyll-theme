@@ -6,37 +6,31 @@
 <body>
 
 <div class="container">
-<div class="wrapper">
 
-{% include header.html %}
+  {% include header.html %}
 
-<div class="body">
+</div>
 
-<div class="sidebar">
+<div class="container">
 
-  <div class="custom-sidebar">
-    <div class="boxed-group-inner">
-    {% capture sb %}{% include sidebar.md %}{% endcapture %}{{ sb | markdownify }}
+  <div class="wrapper">
+    <div class="site-body">
+
+      {% include sidebar.html %}
+
+      <div class="site-content">
+
+        {{ content }}
+
+      </div>
+    </div>
   </div>
-  </div>
-
-  <div class="theme">
-    This site uses the <a href="https://github.com/ilg-ul/github-jekyll-theme">GitHub like theme</a> by <a href="https://github.com/ilg-ul">Liviu Ionescu</a>.
-  </div>
-
 </div>
 
-<div class="content">
+<div class="container">
 
-{{ content }}
+  {% include footer.html %}
 
-</div>
-
-</div>
-
-{% include footer.html %}
-
-</div>
 </div>
 
 </body>

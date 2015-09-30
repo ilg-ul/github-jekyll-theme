@@ -1,23 +1,25 @@
 ---
 layout: page
 permalink: /test/
-title: Title
+title: Page Title
 author: Liviu Ionescu
 
-last_modified_at: 2015-09-28 23:13:00
+custom-footer-content: _test-footer.md
+
+last_modified_at: 2015-09-30 17:57:00
 ---
 
 ## Header 2
 
-Text **text**.
+Text **bold** text.
 
 ### Header 3
 
-Text _text_.
+Text _italic_ text.
 
 #### Header 4
 
-Text text `code`.
+Text `code` text.
 
 * one
 * two
@@ -26,4 +28,10 @@ Text text `code`.
 
 ***
 
-text text
+More text
+
+```
+Code line 1
+Code line 2
+```
+More text
