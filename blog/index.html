@@ -8,7 +8,9 @@ author: Liviu Ionescu
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-<p><em>{{ post.date | date: "%b %-d, %Y" }}.</em> &nbsp;&nbsp;{{ post.excerpt | replace:'<p>','' | replace:'</p>','' }}{% endfor %}</p>
+  <p><em>{{ post.date | date: "%b %-d, %Y" }}.</em> &nbsp;&nbsp;{{ post.excerpt | replace:'<p>','' | replace:'</p>','' }}</p>
+  <hr />
+{% endfor %}
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
