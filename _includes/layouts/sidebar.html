@@ -2,6 +2,12 @@
 
   <div class="custom-sidebar">
     <div class="boxed-group-inner">
+      {% capture ln %}{% include content/latest-news.markdown %}{% endcapture %}{{ ln | markdownify }}
+    </div>
+  </div>
+
+  <div class="custom-sidebar">
+    <div class="boxed-group-inner">
       {% capture sb %}{% include content/sidebar.markdown %}{% endcapture %}{{ sb | markdownify }}
     </div>
   </div>

@@ -15,7 +15,7 @@ url: "http://ilg-ul.github.io" # the base hostname & protocol for your site
 # absence of a trailing slash).
 baseurl: "/github-jekyll-theme"
 
-timezone: Europe/Bucharest
+timezone: UTC
 encoding: utf-8
 
 # Default permalink used for posts
@@ -26,6 +26,8 @@ markdown: redcarpet
 
 redcarpet:
   extensions: []
+
+#
 
 gems:
   - jekyll-last-modified-at

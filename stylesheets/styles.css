@@ -736,8 +736,9 @@ label {
   width: 100%
 }
 
-.site-header img {
-
+.site-header a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .site-icon {
@@ -766,7 +767,7 @@ label {
   margin-bottom: 0.5em;
 }
 
-.page-title h1 {
+h1.page-title  {
   border: 0px;
   margin-bottom: 0px;
 }
@@ -833,8 +834,8 @@ label {
   margin-top: 20px;
 }
 
-.last-modified {
-  font-size: 13px;
+p.last-modified {
+  font-size: 80%;
   padding-top: 5px;
   border-top: 1px solid #eee;
 }
@@ -911,4 +912,12 @@ label {
 .custom-footer ul:last-child,
 .custom-footer ol:last-child {
     margin-bottom: 0
+}
+
+p.post-footer {
+  font-size: 80%;
+}
+
+p.post-meta {
+  font-size: 80%;
 }
