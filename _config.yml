@@ -1,35 +1,45 @@
-# Site settings
+# Site settings.
+
+# Without a clear rule enforced, both title and name are used.
 title: GitHub Wiki-like Jekyll Theme
 name: GitHub Wiki-like Jekyll Theme
 description: A simple Jekyll theme inspired by GitHub Wikis.
+
 email: il@livius.net
 
 destination: _site
 exclude:
   - README.md
 
-# Used in sitemap.xml
-url: "http://ilg-ul.github.io" # the base hostname & protocol for your site
+# Used in sitemap.xml.
+url: "http://ilg-ul.github.io" # the base hostname & protocol for your site.
 
 # The subpath of your site, e.g. /blog (note the leading slash and the
 # absence of a trailing slash).
 baseurl: "/github-jekyll-theme"
 
+# This timezone is used to display post dates and last modified messages.
 timezone: UTC
+
 encoding: utf-8
 
-# Default permalink used for posts
+# Default permalink used for posts.
 permalink: /:year/:month/:day/:title/
 
-# Build settings
+# Build settings.
 markdown: redcarpet
 
 redcarpet:
   extensions: []
 
+# Make this larger, probably 5 is a good choice.
 paginate: 2
 paginate_path: "/blog/page:num/"
 
+# The number of links added to the 'Latest news' box.
+latest-news-pages: 4
+
+# jekyll-last-modified-at is not available on GitHub Pages.
 gems:
   - jekyll-last-modified-at
   - jekyll-mentions
@@ -38,11 +48,17 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
 
-# Custom defs
+# Custom definitions.
+
+# References to the project associated with the web.
 github-username:  ilg-ul
 github-project-name: ilg-ul/github-jekyll-theme
 
-google-analytics-id: UA-000000-01
+# If you have one, define it here.
+# google-analytics-id: UA-000000-01
 
+# Disable it if no site footer is needed.
 custom-footer-content: content/site-custom-footer.markdown
+
+# Content copyright. Update it to your needs.
 copyright-message: "© 2015 Liviu Ionescu"
