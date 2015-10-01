@@ -41,5 +41,5 @@ github-project-name: ilg-ul/github-jekyll-theme
 
 google-analytics-id: UA-000000-01
 
-custom-footer-content: site-custom-footer-content.markdown
+custom-footer-content: content/site-custom-footer.markdown
 copyright-message: "© 2015 Liviu Ionescu"
