@@ -1,6 +1,6 @@
 # GitHub Wiki-like Jekyll Theme
 
-This theme is inspired by the GitHub Wiki look, and is intended to be an easy migration path from Wikis to Pages.
+This Jekyll theme is inspired by the GitHub Wiki look, and is intended as an easy migration path from Wikis to Pages.
 
 ## Pages vs. posts
 
