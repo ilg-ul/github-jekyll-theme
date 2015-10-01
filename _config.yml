@@ -27,7 +27,8 @@ markdown: redcarpet
 redcarpet:
   extensions: []
 
-#
+paginate: 2
+paginate_path: "/blog/page:num/"
 
 gems:
   - jekyll-last-modified-at
