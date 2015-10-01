@@ -7,7 +7,7 @@ author: Liviu Ionescu
 ---
 
 {% for post in site.posts %}
-### [{{ post.title }}]({{ post.url }})
+### [{{ post.title }}]({{ site.baseurl }}/{{ post.url }})
 
 _{{ post.date | date: "%b %-d, %Y" }}._ &nbsp;&nbsp;{{ post.excerpt | replace:'<p>','' | replace:'</p>','' }}
 ***
