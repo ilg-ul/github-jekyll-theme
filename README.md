@@ -8,7 +8,7 @@ The theme allows to define both pages and posts.
 
 Pages can have any URLs, preferably organised hierarchicaly (like `/debug/openocd/` and `/debug/jlink/`).
 
-Posts are special cases, since their chronological order is important, and usually have a special URL, which include the date (`/:year/:month/:day/:title/` in this configuration).
+Posts are special cases, since their chronological order is important, and usually have a special URL, which include the date (`/blog/:year/:month/:day/:title/` in this configuration).
 
 ## Local build vs. GitHub Pages build
 
@@ -26,11 +26,11 @@ When the site is build by GitHub Pages, you need to manually add the `last_modif
 
 ### Pages
 
-Add more pages in the `site` folder, preferably grouped in folders that will reflect the final URL structure.
+Add more pages in the `pages` folder, preferably grouped in folders that will reflect the final URL structure.
 
 ### Posts
 
-Add more posts in the `_posts` folder; create new subfolders, for more categories.
+Add more posts in the `_posts` folder; create new subfolders (subfolder names are not used for categories; however, if `_posts` folder are used inside inner folders, those are used as categories).
 
 ### Sidebar
 
@@ -60,7 +60,7 @@ custom-footer-content: _test-footer.md
 
 ## Paginator
 
-Although the pagination code is in, and functional, the Paginator plug-in is deprecated in Jekyll 3, so use it with caution.
+Although the pagination code is in, and functional, the Paginator plug-in is marked as _retired_ in Jekyll 3, so use it with caution.
 
 ## Possible CSS issues
 
