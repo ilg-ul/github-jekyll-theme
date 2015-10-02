@@ -32,6 +32,8 @@ markdown: redcarpet
 redcarpet:
   extensions: []
 
+excerpt_separator: <!--more-->
+
 # Warning: paginator deprecated in Jekyll 3!
 # Make this larger, probably 5 is a good choice.
 # paginate: 2

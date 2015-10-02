@@ -42,7 +42,7 @@ author: Liviu Ionescu
 {% else %}
 <!-- This loops through all site posts -->
 {% for post in site.posts %}
-  <h3><a href="{{ post.url  | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+  <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
   <p><em>{{ post.date | date: "%b %-d, %Y" }}.</em> &nbsp;&nbsp;{{ post.excerpt | replace:'<p>','' | replace:'</p>','' }}</p>
   <hr />
 {% endfor %}
