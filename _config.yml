@@ -24,7 +24,7 @@ timezone: UTC
 encoding: utf-8
 
 # Default permalink used for posts.
-permalink: /:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 
 # Build settings.
 markdown: redcarpet
