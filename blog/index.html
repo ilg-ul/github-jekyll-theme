@@ -5,6 +5,7 @@ author: Liviu Ionescu
 
 ---
 
+{% if site.paginate %}
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -37,4 +38,12 @@ author: Liviu Ionescu
     <span>Next &raquo;</span>
   {% endif %}
 </div>
+{% endif %}
+{% else %}
+<!-- This loops through all site posts -->
+{% for post in site.posts %}
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p><em>{{ post.date | date: "%b %-d, %Y" }}.</em> &nbsp;&nbsp;{{ post.excerpt | replace:'<p>','' | replace:'</p>','' }}</p>
+  <hr />
+{% endfor %}
 {% endif %}

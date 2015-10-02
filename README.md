@@ -58,6 +58,10 @@ custom-footer-content: _test-footer.md
 
 > Note: the footer file name should start with an underscore, to make Jekyll not copy it to the output site.
 
+## Paginator
+
+Although the pagination code is in, and functional, the Paginator plug-in is deprecated in Jekyll 3, so use it with caution.
+
 ## Possible CSS issues
 
 Web design is not my main field of expertise, so you might encounter some issues with the CSS files. Please suggest fixes, and I'll do my best to incorporate them.
