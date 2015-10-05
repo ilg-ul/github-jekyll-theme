@@ -174,6 +174,7 @@ optgroup {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    width: 100%;
 }
 
 td, th {
@@ -508,7 +509,8 @@ label {
 }
 
 .wrapper table {
-    display: block;
+    /* display: block; */
+    display: table;
     width: 100%;
     overflow: auto;
     word-break: normal;
@@ -734,7 +736,8 @@ label {
 
 .site-header {
   border-bottom: 1px solid #eee;
-  width: 100%
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .site-header a {
@@ -853,4 +856,36 @@ p.post-meta {
 
 .pagination {
   font-size: 80%;
+}
+
+table#post-navigation {
+  vertical-align: middle;
+  margin-bottom: 20px;
+  border: 0px;
+}
+
+table#post-navigation tr {
+  border: 0px;
+}
+
+table#post-navigation td {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: 0px;
+  padding: 0px;
+}
+
+table#post-navigation td:nth-child(2){
+  text-align: left;
+  padding-left: 5px;
+}
+
+table#post-navigation td:nth-child(3){
+  min-width: 2em;
+}
+
+table#post-navigation td:nth-child(4){
+  text-align: right;
+  padding-right: 5px;
 }

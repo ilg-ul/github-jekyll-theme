@@ -70,7 +70,7 @@ facebook-page: https://facebook.com/ilg-ul/
 # Disable it if no site footer is needed.
 custom-footer-content: content/site-custom-footer.markdown
 
-css-date: 201510051840
+css-date: 201510052222
 
 # Content copyright. Update it to your needs.
 copyright-message: "© 2015 Liviu Ionescu"
