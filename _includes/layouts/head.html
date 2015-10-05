@@ -10,7 +10,7 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:site_name" content="{{ site.title }}" />
 
-  {% feed_meta %}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
 
 {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date: "%F" }}">{% endif %}
