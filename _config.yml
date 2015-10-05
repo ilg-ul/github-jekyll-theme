@@ -62,5 +62,7 @@ github-project-name: ilg-ul/github-jekyll-theme
 # Disable it if no site footer is needed.
 custom-footer-content: content/site-custom-footer.markdown
 
+css-date: 201510051840
+
 # Content copyright. Update it to your needs.
 copyright-message: "© 2015 Liviu Ionescu"
