@@ -1,133 +1,133 @@
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%
+    text-size-adjust: 100%;
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup,
 main, menu, nav, section, summary {
-    display: block
+    display: block;
 }
 
 audio, canvas, progress, video {
     display: inline-block;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 audio:not([controls]) {
     display: none;
-    height: 0
+    height: 0;
 }
 
 [hidden], template {
-    display: none
+    display: none;
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
 }
 
 a:active, a:hover {
-    outline: 0
+    outline: 0;
 }
 
 abbr[title] {
-    border-bottom: 1px dotted
+    border-bottom: 1px dotted;
 }
 
 b, strong {
-    font-weight: bold
+    font-weight: bold;
 }
 
 dfn {
-    font-style: italic
+    font-style: italic;
 }
 
 h1 {
     font-size: 2em;
-    margin: 0.67em 0
+    margin: 0.67em 0;
 }
 
 mark {
     background: #ff0;
-    color: #000
+    color: #000;
 }
 
 small {
-    font-size: 80%
+    font-size: 80%;
 }
 
 sub, sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 sup {
-    top: -0.5em
+    top: -0.5em;
 }
 
 sub {
-    bottom: -0.25em
+    bottom: -0.25em;
 }
 
 img {
-    border: 0
+    border: 0;
 }
 
 svg:not(:root) {
-    overflow: hidden
+    overflow: hidden;
 }
 
 figure {
-    margin: 1em 40px
+    margin: 1em 40px;
 }
 
 hr {
     box-sizing: content-box;
-    height: 0
+    height: 0;
 }
 
 pre {
-    overflow: auto
+    overflow: auto;
 }
 
 code, kbd, pre, samp {
     font-family: monospace, monospace;
-    font-size: 1em
+    font-size: 1em;
 }
 
 button, input, optgroup, select, textarea {
     color: inherit;
     font: inherit;
-    margin: 0
+    margin: 0;
 }
 
 button {
-    overflow: visible
+    overflow: visible;
 }
 
 button, select {
-    text-transform: none
+    text-transform: none;
 }
 
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
-    cursor: pointer
+    cursor: pointer;
 }
 
 button[disabled], html input[disabled] {
-    cursor: default
+    cursor: default;
 }
 
 button::-moz-focus-inner, input::-moz-focus-inner {
     border: 0;
-    padding: 0
+    padding: 0;
 }
 
 input {
@@ -136,71 +136,71 @@ input {
 
 input[type="checkbox"], input[type="radio"] {
     box-sizing: border-box;
-    padding: 0
+    padding: 0;
 }
 
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
-    height: auto
+    height: auto;
 }
 
 input[type="search"] {
     -webkit-appearance: textfield;
-    box-sizing: content-box
+    box-sizing: content-box;
 }
 
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em
+    padding: 0.35em 0.625em 0.75em;
 }
 
 legend {
     border: 0;
-    padding: 0
+    padding: 0;
 }
 
 textarea {
-    overflow: auto
+    overflow: auto;
 }
 
 optgroup {
-    font-weight: bold
+    font-weight: bold;
 }
 
 table {
     border-collapse: collapse;
-    border-spacing: 0
+    border-spacing: 0;
 }
 
 td, th {
-    padding: 0
+    padding: 0;
 }
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 input, select, textarea, button {
-    font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"
+    font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
     font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     color: #333;
-    background-color: #fff
+    background-color: #fff;
 }
 
 a {
     color: #4078c0;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover, a:active {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 hr, .rule {
@@ -209,111 +209,111 @@ hr, .rule {
     overflow: hidden;
     background: transparent;
     border: 0;
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #ddd;
 }
 
 hr:before, .rule:before {
     display: table;
-    content: ""
+    content: "";
 }
 
 hr:after, .rule:after {
     display: table;
     clear: both;
-    content: ""
+    content: "";
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 15px;
     margin-bottom: 15px;
-    line-height: 1.1
+    line-height: 1.1;
 }
 
 h1 {
-    font-size: 30px
+    font-size: 30px;
 }
 
 h2 {
-    font-size: 21px
+    font-size: 21px;
 }
 
 h3 {
-    font-size: 16px
+    font-size: 16px;
 }
 
 h4 {
-    font-size: 14px
+    font-size: 14px;
 }
 
 h5 {
-    font-size: 12px
+    font-size: 12px;
 }
 
 h6 {
-    font-size: 11px
+    font-size: 11px;
 }
 
 small {
-    font-size: 90%
+    font-size: 90%;
 }
 
 blockquote {
-    margin: 0
+    margin: 0;
 }
 
 ul, ol {
     padding: 0;
     margin-top: 0;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 ol ol, ul ol {
-    list-style-type: lower-roman
+    list-style-type: lower-roman;
 }
 
 ul ul ol, ul ol ol, ol ul ol, ol ol ol {
-    list-style-type: lower-alpha
+    list-style-type: lower-alpha;
 }
 
 dd {
-    margin-left: 0
+    margin-left: 0;
 }
 
 tt, code {
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 12px
+    font-size: 12px;
 }
 
 pre {
     margin-top: 0;
     margin-bottom: 0;
-    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
 fieldset {
     padding: 0;
     margin: 0;
-    border: 0
+    border: 0;
 }
 
 label {
     font-size: 13px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .container {
     width: 980px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 .container:before {
     display: table;
-    content: ""
+    content: "";
 }
 .container:after {
     display: table;
     clear: both;
-    content: ""
+    content: "";
 }
 
 .wrapper {
@@ -321,24 +321,24 @@ label {
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 .wrapper>*:first-child {
-    margin-top: 0 !important
+    margin-top: 0 !important;
 }
 
 .wrapper>*:last-child {
-    margin-bottom: 0 !important
+    margin-bottom: 0 !important;
 }
 
 .wrapper a:not([href]) {
     color: inherit;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .wrapper .absent {
-    color: #c00
+    color: #c00;
 }
 
 .wrapper .anchor {
@@ -348,11 +348,11 @@ label {
     display: block;
     padding-right: 6px;
     padding-left: 30px;
-    margin-left: -30px
+    margin-left: -30px;
 }
 
 .wrapper .anchor:focus {
-    outline: none
+    outline: none;
 }
 
 .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4,
@@ -361,7 +361,7 @@ label {
     margin-top: 1em;
     margin-bottom: 16px;
     font-weight: bold;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 .wrapper h1 .octicon-link, .wrapper h2 .octicon-link,
@@ -369,85 +369,85 @@ label {
 .wrapper h6 .octicon-link {
     display: none;
     color: #000;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .wrapper h1:hover .anchor, .wrapper h2:hover .anchor, .wrapper h3:hover .anchor, .wrapper h4:hover .anchor, .wrapper h5:hover .anchor, .wrapper h6:hover .anchor {
     padding-left: 8px;
     margin-left: -30px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .wrapper h1:hover .anchor .octicon-link, .wrapper h2:hover .anchor .octicon-link, .wrapper h3:hover .anchor .octicon-link, .wrapper h4:hover .anchor .octicon-link, .wrapper h5:hover .anchor .octicon-link, .wrapper h6:hover .anchor .octicon-link {
-    display: inline-block
+    display: inline-block;
 }
 
 .wrapper h1 tt, .wrapper h1 code, .wrapper h2 tt, .wrapper h2 code,
 .wrapper h3 tt, .wrapper h3 code, .wrapper h4 tt, .wrapper h4 code,
 .wrapper h5 tt, .wrapper h5 code, .wrapper h6 tt, .wrapper h6 code {
-    font-size: inherit
+    font-size: inherit;
 }
 
 .wrapper h1 {
     padding-bottom: 0.3em;
     font-size: 2.25em;
     line-height: 1.2;
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid #eee;
 }
 
 .wrapper h1 .anchor {
-    line-height: 1
+    line-height: 1;
 }
 
 .wrapper h2 {
     padding-bottom: 0.3em;
     font-size: 1.75em;
     line-height: 1.225;
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid #eee;
 }
 
 .wrapper h2 .anchor {
-    line-height: 1
+    line-height: 1;
 }
 
 .wrapper h3 {
     font-size: 1.5em;
-    line-height: 1.43
+    line-height: 1.43;
 }
 
 .wrapper h3 .anchor {
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 .wrapper h4 {
-    font-size: 1.25em
+    font-size: 1.25em;
 }
 
 .wrapper h4 .anchor {
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 .wrapper h5 {
-    font-size: 1em
+    font-size: 1em;
 }
 
 .wrapper h5 .anchor {
-    line-height: 1.1
+    line-height: 1.1;
 }
 
 .wrapper h6 {
     font-size: 1em;
-    color: #777
+    color: #777;
 }
 
 .wrapper h6 .anchor {
-    line-height: 1.1
+    line-height: 1.1;
 }
 
 .wrapper p, .wrapper blockquote, .wrapper ul, .wrapper ol,
 .wrapper dl, .wrapper table, .wrapper pre {
     margin-top: 0;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 
 .wrapper hr {
@@ -455,29 +455,29 @@ label {
     padding: 0;
     margin:25px 0 20px;
     background-color: #e7e7e7;
-    border: 0 none
+    border: 0 none;
 }
 
 .wrapper ul, .wrapper ol {
-    padding-left: 2em
+    padding-left: 2em;
 }
 
 .wrapper ul.no-list, .wrapper ol.no-list {
     padding: 0;
-    list-style-type: none
+    list-style-type: none;
 }
 
 .wrapper ul ul, .wrapper ul ol, .wrapper ol ol, .wrapper ol ul {
     margin-top: 0;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .wrapper li>p {
-    margin-top: 16px
+    margin-top: 16px;
 }
 
 .wrapper dl {
-    padding: 0
+    padding: 0;
 }
 
 .wrapper dl dt {
@@ -485,26 +485,26 @@ label {
     margin-top: 16px;
     font-size: 1em;
     font-style: italic;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .wrapper dl dd {
     padding: 0 16px;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 
 .wrapper blockquote {
     padding: 0 15px;
     color: #777;
-    border-left: 4px solid #ddd
+    border-left: 4px solid #ddd;
 }
 
 .wrapper blockquote>:first-child {
-    margin-top: 0
+    margin-top: 0;
 }
 
 .wrapper blockquote>:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .wrapper table {
@@ -512,39 +512,39 @@ label {
     width: 100%;
     overflow: auto;
     word-break: normal;
-    word-break: keep-all
+    word-break: keep-all;
 }
 
 .wrapper table th {
-    font-weight: bold
+    font-weight: bold;
 }
 
 .wrapper table th, .wrapper table td {
     padding: 6px 13px;
-    border: 1px solid #ddd
+    border: 1px solid #ddd;
 }
 
 .wrapper table tr {
     background-color: #fff;
-    border-top: 1px solid #ccc
+    border-top: 1px solid #ccc;
 }
 
 .wrapper table tr:nth-child(2n) {
-    background-color: #f8f8f8
+    background-color: #f8f8f8;
 }
 
 .wrapper img {
     max-width: 100%;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .wrapper .emoji {
-    max-width: none
+    max-width: none;
 }
 
 .wrapper span.frame {
     display: block;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .wrapper span.frame>span {
@@ -554,80 +554,80 @@ label {
     padding: 7px;
     margin: 13px 0 0;
     overflow: hidden;
-    border: 1px solid #ddd
+    border: 1px solid #ddd;
 }
 
 .wrapper span.frame span img {
     display: block;
-    float: left
+    float: left;
 }
 
 .wrapper span.frame span span {
     display: block;
     padding: 5px 0 0;
     clear: both;
-    color: #333
+    color: #333;
 }
 
 .wrapper span.align-center {
     display: block;
     overflow: hidden;
-    clear: both
+    clear: both;
 }
 
 .wrapper span.align-center>span {
     display: block;
     margin: 13px auto 0;
     overflow: hidden;
-    text-align: center
+    text-align: center;
 }
 
 .wrapper span.align-center span img {
     margin: 0 auto;
-    text-align: center
+    text-align: center;
 }
 
 .wrapper span.align-right {
     display: block;
     overflow: hidden;
-    clear: both
+    clear: both;
 }
 
 .wrapper span.align-right>span {
     display: block;
     margin: 13px 0 0;
     overflow: hidden;
-    text-align: right
+    text-align: right;
 }
 
 .wrapper span.align-right span img {
     margin: 0;
-    text-align: right
+    text-align: right;
 }
 
 .wrapper span.float-left {
     display: block;
     float: left;
     margin-right: 13px;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .wrapper span.float-left span {
-    margin: 13px 0 0
+    margin: 13px 0 0;
 }
 
 .wrapper span.float-right {
     display: block;
     float: right;
     margin-left: 13px;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .wrapper span.float-right>span {
     display: block;
     margin: 13px auto 0;
     overflow: hidden;
-    text-align: right
+    text-align: right;
 }
 
 .wrapper code, .wrapper tt {
@@ -637,20 +637,20 @@ label {
     margin: 0;
     font-size: 85%;
     background-color: rgba(0, 0, 0, 0.04);
-    border-radius: 3px
+    border-radius: 3px;
 }
 
 .wrapper code:before, .wrapper code:after, .wrapper tt:before, .wrapper tt:after {
     letter-spacing: -0.2em;
-    content: "\00a0"
+    content: "\00a0";
 }
 
 .wrapper code br, .wrapper tt br {
-    display: none
+    display: none;
 }
 
 .wrapper del code {
-    text-decoration: inherit
+    text-decoration: inherit;
 }
 
 .wrapper pre>code {
@@ -660,11 +660,11 @@ label {
     word-break: normal;
     white-space: pre;
     background: transparent;
-    border: 0
+    border: 0;
 }
 
 .wrapper .highlight {
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 
 .wrapper .highlight pre, .wrapper pre {
@@ -673,16 +673,16 @@ label {
     font-size: 85%;
     line-height: 1.45;
     background-color: #f7f7f7;
-    border-radius: 3px
+    border-radius: 3px;
 }
 
 .wrapper .highlight pre {
     margin-bottom: 0;
-    word-break: normal
+    word-break: normal;
 }
 
 .wrapper pre {
-    word-wrap: normal
+    word-wrap: normal;
 }
 
 .wrapper pre code, .wrapper pre tt {
@@ -694,11 +694,11 @@ label {
     line-height: inherit;
     word-wrap: normal;
     background-color: transparent;
-    border: 0
+    border: 0;
 }
 
 .wrapper pre code:before, .wrapper pre code:after, .wrapper pre tt:before, .wrapper pre tt:after {
-    content: normal
+    content: normal;
 }
 
 .wrapper kbd {
@@ -712,9 +712,10 @@ label {
     border: solid 1px #ccc;
     border-bottom-color: #bbb;
     border-radius: 3px;
-    box-shadow: inset 0 -1px 0 #bbb
+    box-shadow: inset 0 -1px 0 #bbb;
 }
 
+/* ---------------------------------*/
 
 .boxed-group-inner {
   margin: 0px 0px 20px 0px;
@@ -723,7 +724,7 @@ label {
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  font-size: 13px
+  font-size: 13px;
 }
 
 .boxed-group-inner p {
@@ -772,6 +773,10 @@ h1.page-title  {
   margin-bottom: 0px;
 }
 
+h1.post-title  {
+  margin-bottom: 0px;
+}
+
 .site-body {
   clear:both;
 }
@@ -792,13 +797,13 @@ h1.page-title  {
   padding-bottom: 5px;
   font-size: 1.6em;
   line-height: 1.2;
-  border-color: #eee
+  border-color: #eee;
 }
 .custom-sidebar h2 {
   padding-bottom: 5px;
   font-size: 1.4em;
   line-height: 1.2;
-  border-color: #eee
+  border-color: #eee;
 }
 .custom-sidebar h3,
 .custom-sidebar h4,
@@ -806,7 +811,7 @@ h1.page-title  {
 .custom-sidebar h6 {
   font-size: 1.2em;
   line-height: 1.2;
-  border-color: #eee
+  border-color: #eee;
 }
 
 .custom-sidebar .boxed-group-inner>:nth-child(1) {
@@ -825,7 +830,7 @@ h1.page-title  {
 .custom-sidebar p:last-child,
 .custom-sidebar ul:last-child,
 .custom-sidebar ol:last-child {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
 .site-theme {
@@ -849,17 +854,17 @@ p.last-modified {
   font-size: 12px;
   line-height: 1.5;
   color: #767676;
-  border-top: 1px solid #eee
+  border-top: 1px solid #eee;
 }
 
 .site-footer:before {
   display: table;
-  content: ""
+  content: "";
 }
 .site-footer:after {
   display: table;
   clear: both;
-  content: ""
+  content: "";
 }
 .site-footer .octicon-mark-github {
   position: absolute;
@@ -869,28 +874,28 @@ p.last-modified {
   width: 24px;
   margin-left: -12px;
   font-size: 24px;
-  color: #ccc
+  color: #ccc;
 }
 .site-footer .octicon-mark-github:hover {
-  color: #bbb
+  color: #bbb;
 }
 .site-footer-links {
   margin: 0;
-  list-style: none
+  list-style: none;
 }
 .site-footer-links li {
   display: inline-block;
-  line-height: 16px
+  line-height: 16px;
 }
 .site-footer-links li+li {
-  margin-left: 10px
+  margin-left: 10px;
 }
 
 .right {
-  float: right
+  float: right;
 }
 .left {
-  float: left
+  float: left;
 }
 
 .custom-footer {
@@ -911,15 +916,25 @@ p.last-modified {
 .custom-footer p:last-child,
 .custom-footer ul:last-child,
 .custom-footer ol:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
-p.post-footer {
+.post-footer {
+  border-top: 1px solid #eee;
+}
+
+.post-footer p {
+  margin: 0px;
   font-size: 80%;
+}
+
+.post-footer > p:first-child {
+  margin-top: 5px;
 }
 
 p.post-meta {
   font-size: 80%;
+  margin-top: 5px;
 }
 
 .pagination {
