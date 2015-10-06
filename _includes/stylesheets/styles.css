@@ -889,3 +889,35 @@ table#post-navigation td:nth-child(4){
   text-align: right;
   padding-right: 5px;
 }
+
+.fb-like.fb_iframe_widget {
+  vertical-align: middle;
+}
+
+.fb-share-button {
+  vertical-align: middle;
+  padding-bottom: 2px;
+}
+
+.tw-share-button {
+  vertical-align: middle;
+}
+
+.twitter-follow-button {
+  vertical-align: middle;
+}
+
+.twitter-share-button {
+  vertical-align: middle;
+}
+
+ul.share-buttons {
+  list-style: none;
+  padding: 0px;
+}
+
+.share-buttons li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}

@@ -62,7 +62,9 @@ github-project-name: ilg-ul/github-jekyll-theme
 github-project-url: http://github.com/ilg-ul/github-jekyll-theme
 
 # Change it to refer to project's page
-facebook-page: https://facebook.com/ilg-ul/
+facebook-url: https://facebook.com/ilg-ul/
+
+twitter-url: http://twitter.com/ilegeul
 
 # If you have one, define it here.
 # google-analytics-id: UA-000000-01
@@ -70,7 +72,7 @@ facebook-page: https://facebook.com/ilg-ul/
 # Disable it if no site footer is needed.
 custom-footer-content: content/site-custom-footer.markdown
 
-css-date: 201510052222
+css-date: 201510060914
 
 # Content copyright. Update it to your needs.
 copyright-message: "© 2015 Liviu Ionescu"
